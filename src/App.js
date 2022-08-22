@@ -3,6 +3,7 @@ import './App.css';
 import Billing from './Billing';
 import Home from './Home';
 import Confirm from './Confirm';
+import Success from './Success';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home/>}></Route>
         <Route path="/billing" element={<Billing/>}></Route>
         <Route path="/confirm" element={<Confirm/>}></Route>
+        <Route path="/success" element={<Success/>}></Route>
       </Routes>
 
     </div>

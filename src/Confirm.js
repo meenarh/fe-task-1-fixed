@@ -3,6 +3,7 @@ import Header from './Header'
 import Navbar from './Navbar'
 import Card from 'react-bootstrap/Card'
 import Button from './Button'
+import { Link } from 'react-router-dom'
 
 const Confirm = () => {
   return (
@@ -35,7 +36,7 @@ const Confirm = () => {
 
         <form>
             <div className='buttons'>
-                <Button type="submit">Pay</Button>
+                <Button type="submit"><Link className='link' to="/success">Pay</Link></Button>
                 <Button type="reset">Cancel Payment</Button>
             </div>
         </form>

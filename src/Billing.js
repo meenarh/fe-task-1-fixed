@@ -35,7 +35,7 @@ const Billing = () => {
                 </label>
                 <label className='cvv'>
                     CVV
-                    <input className='card' name='cvv' type="text" placeholder="123" required></input>
+                    <input className='card-cvv' name='cvv' type="text" placeholder="123" required></input>
                 </label>
             </div>
             
