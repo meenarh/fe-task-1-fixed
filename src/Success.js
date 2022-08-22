@@ -11,7 +11,7 @@ const Success = () => {
                 <FcCheckmark style={{width: '50px', height:'50px', marginTop:'15px'}}/>
                 <h2>Purchase Completed</h2>
                 <p className='info'>Please check your email for details concerning this transaction</p>
-                <Link to="\" className='back'>Return Home</Link>
+                <Link to="/" className='back'>Return Home</Link>
             </Card.Body>
         </Card>
     </div>
